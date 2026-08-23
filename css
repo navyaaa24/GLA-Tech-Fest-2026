@@ -1,0 +1,71 @@
+/* 1. Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 2. Grouping Selector */
+h1, h2, p {
+    font-family: Arial;
+}
+
+
+/* 3. ID Selector */
+#home {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* 4. Class Selector */
+.section {
+    background-color: lightcyan;
+    margin: 20px;
+    padding: 25px;
+    border: 2px solid blue;
+}
+
+
+/* Grouping Selector */
+h1, h2 {
+    color: darkblue;
+}
+
+
+/* ID Selector */
+#contact {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+}
+
+
+/* Pseudo-class Selector */
+a:hover {
+    color: red;
+}
+
+
+/* Pseudo-class Selector */
+.section:hover {
+    background-color: lightgreen;
+}
+
+
+/* ID Selector */
+#home a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+/* Element Selector */
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
