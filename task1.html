@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background-color: #263238;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #455a64;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            width: 90%;
+            max-width: 1000px;
+            margin: 25px auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 22px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+
+        h2 {
+            color: #263238;
+            border-bottom: 2px solid #90a4ae;
+            padding-bottom: 7px;
+        }
+
+        .profile {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        figure {
+            margin: 0;
+            text-align: center;
+        }
+
+        figure img {
+            width: 180px;
+            height: 220px;
+            object-fit: cover;
+            border: 3px solid #455a64;
+            border-radius: 6px;
+        }
+
+        figcaption {
+            margin-top: 8px;
+            font-weight: bold;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th,
+        td {
+            border: 1px solid #777;
+            padding: 10px 6px;
+            text-align: center;
+        }
+
+        thead th {
+            background-color: #eceff1;
+        }
+
+        tbody th {
+            background-color: #f1f1f1;
+        }
+
+        .lab {
+            background-color: #e8f5e9;
+        }
+
+        .online {
+            background-color: #d9ffff;
+        }
+
+        .timetable-image {
+            width: 100%;
+            margin-top: 15px;
+            border: 1px solid #aaa;
+        }
+
+        footer {
+            background-color: #263238;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <p>B.Tech CSE | Full Stack Development</p>
+    </header>
+
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#profile">Profile</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#timetable">Timetable</a>
+    </nav>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- PROFILE SECTION -->
+        <section id="profile">
+
+            <h2>My Profile</h2>
+
+            <article class="profile">
+
+                <figure>
+                    <img src="profile.jpeg" alt="My Profile Photo">
+                    <figcaption>My Profile</figcaption>
+                </figure>
+
+                <div>
+                    <h3>Hello! I am a B.Tech CSE Student</h3>
+
+                    <p>
+                        I am currently pursuing B.Tech in Computer Science
+                        and Engineering. I am interested in learning web
+                        development and improving my technical skills.
+                    </p>
+
+                    <p>
+                        <strong>Course:</strong>
+                        Bachelor of Technology
+                    </p>
+
+                    <p>
+                        <strong>Semester:</strong>
+                        III
+                    </p>
+
+                    <p>
+                        <strong>Specialization:</strong>
+                        Full Stack Development
+                    </p>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <!-- ABOUT ME SECTION -->
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am a college student who enjoys learning new things
+                and exploring technology. I am currently learning HTML,
+                CSS, Java and other subjects related to Computer Science.
+            </p>
+
+            <p>
+                My aim is to keep learning, work on useful projects and
+                improve my problem-solving skills.
+            </p>
+
+        </section>
+
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+
+            <h2>My Skills and Interests</h2>
+
+            <ul>
+                <li>HTML and Web Page Design</li>
+                <li>CSS Basics</li>
+                <li>Java Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Database Management</li>
+                <li>Reading Books</li>
+                <li>Listening to Music</li>
+            </ul>
+
+        </section>
+
+
+        <!-- TIMETABLE SECTION -->
+        <section id="timetable">
+
+            <h2>My Academic Timetable</h2>
+
+            <p>
+                <strong>Course:</strong> Bachelor of Technology
+            </p>
+
+            <p>
+                <strong>Semester:</strong> III
+            </p>
+
+            <p>
+                <strong>Session:</strong> 2026-2027
+            </p>
+
+
+            <!-- TABLE -->
+            <table>
+
+                <thead>
+
+                    <tr>
+                        <th>Day / Time</th>
+                        <th>08:00-09:00</th>
+                        <th>09:00-10:00</th>
+                        <th>10:00-11:00</th>
+                        <th>11:00-12:00</th>
+                        <th>12:00-01:00</th>
+                        <th>01:00-02:00</th>
+                        <th>02:00-03:00</th>
+                        <th>03:00-04:00</th>
+                        <th>04:00-05:00</th>
+                        <th>05:00-06:00</th>
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <!-- MONDAY -->
+                    <tr>
+
+                        <th>Monday</th>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td>
+                            BCSC0031<br>
+                            ABI-316
+                        </td>
+
+                        <td>
+                            BMAS0108<br>
+                            ABI-316
+                        </td>
+
+                        <td></td>
+
+                        <td>
+                            BCSC1006<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BELH0020<br>
+                            ABVIII-420
+                        </td>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td></td>
+
+                    </tr>
+
+
+                    <!-- TUESDAY -->
+                    <tr>
+
+                        <th>Tuesday</th>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td class="lab">
+                            BCSC1006<br>
+                            ABI-210
+                        </td>
+
+                        <td class="lab">
+                            BCSE0031<br>
+                            ABI-210
+                        </td>
+
+                        <td></td>
+
+                        <td>
+                            BELH0020<br>
+                            ABVIII-420
+                        </td>
+
+                        <td class="lab">
+                            2FB1 / BCSC1802<br>
+                            ABI-217
+                        </td>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td></td>
+
+                    </tr>
+
+
+                    <!-- WEDNESDAY -->
+                    <tr>
+
+                        <th>Wednesday</th>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td>
+                            BCSC1805<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC1805<br>
+                            ABVIII-420
+                        </td>
+
+                        <td></td>
+
+                        <td>
+                            BMAS0108<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            2FB2 / BELH0020<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSE0031<br>
+                            ABI-316
+                        </td>
+
+                        <td>
+                            BCSC0009<br>
+                            ABI-316
+                        </td>
+
+                        <td>
+                            BCSC1003<br>
+                            ABI-316
+                        </td>
+
+                    </tr>
+
+
+                    <!-- THURSDAY -->
+                    <tr>
+
+                        <th>Thursday</th>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td>
+                            2FB1 / BELH0020<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC1003<br>
+                            ABVIII-420
+                        </td>
+
+                        <td></td>
+
+                        <td>
+                            BCSC1805<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC1805<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BMAS0108<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC0009<br>
+                            ABVIII-420
+                        </td>
+
+                        <td class="online">
+                            BEDM0001<br>
+                            ABI-401<br>
+                            (Online)
+                        </td>
+
+                    </tr>
+
+
+                    <!-- FRIDAY -->
+                    <tr>
+
+                        <th>Friday</th>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td>
+                            BCSE0813<br>
+                            ABI-212
+                        </td>
+
+                        <td></td>
+
+                        <td></td>
+
+                        <td>
+                            BCSC1003<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC1006<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BMAS0108<br>
+                            ABVIII-420
+                        </td>
+
+                        <td>
+                            BCSC0009<br>
+                            ABVIII-420
+                        </td>
+
+                        <td class="online">
+                            BEDM0001<br>
+                            ABI-401<br>
+                            (Online)
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+            <!-- ORIGINAL TIMETABLE IMAGE -->
+            <h3>Original Timetable</h3>
+
+            
+
+            <figure>
+
+                
+                <figcaption>
+                    Academic Timetable - Session 2026
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            &copy; 2026 My Personal Portfolio
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
