@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Us</title>
+
+    <style>
+
+        /* Element Selector */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Element Selector */
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        /* ID Selector */
+        #header {
+            background-color: #4a148c;
+            padding: 25px;
+        }
+
+        /* Class Selector */
+        .about {
+            background-color: rgb(255, 255, 255);
+            width: 80%;
+            margin: 25px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        /* ID Selector */
+        #intro {
+            color: #4a148c;
+            font-size: 20px;
+        }
+
+        /* Element Selector */
+        p {
+            line-height: 1.6;
+            color: rgb(60, 60, 60);
+        }
+
+        /* Class Selector */
+        .section-title {
+            color: #6a1b9a;
+            border-bottom: 2px solid #6a1b9a;
+            padding-bottom: 5px;
+        }
+
+        /* Ordered List - Movies */
+        ol {
+            background-color: #f3e5f5;
+            padding: 20px 40px;
+            border-radius: 6px;
+        }
+
+        ol li {
+            padding: 6px;
+        }
+
+        /* Unordered List - Cities */
+        ul {
+            background-color: rgb(232, 245, 233);
+            padding: 20px 40px;
+            border-radius: 6px;
+        }
+
+        ul li {
+            padding: 6px;
+        }
+
+        /* Pseudo-class Selector */
+        li:hover {
+            background-color: #ce93d8;
+            cursor: pointer;
+        }
+
+        /* Pseudo-class Selector */
+        nav a:hover {
+            color: #ffeb3b;
+        }
+
+        /* Class Selector */
+        .highlight {
+            color: rgb(156, 39, 176);
+            font-weight: bold;
+        }
+
+        /* Element Selector */
+        footer {
+            background-color: #4a148c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+
+        <h1>About Us</h1>
+
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#movies">Movies</a> |
+            <a href="#cities">Cities</a>
+        </nav>
+
+    </header>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <h2 class="section-title">About Us</h2>
+
+        <p id="intro">
+            Welcome to our About Us page!
+        </p>
+
+        <p>
+            We are students who enjoy learning new technologies
+            and exploring different things. This webpage is created
+            using HTML and CSS to demonstrate different types of
+            CSS selectors and styling.
+        </p>
+
+        <p>
+            We enjoy watching <span class="highlight">movies</span>,
+            visiting different <span class="highlight">cities</span>
+            and learning new skills.
+        </p>
+
+    </section>
+
+
+    <!-- Movies Section -->
+    <section id="movies" class="about">
+
+        <h2 class="section-title">My Favourite Movies</h2>
+
+        <p>
+            Here is a list of some movies I like:
+        </p>
+
+        <ol>
+            <li>3 Idiots</li>
+            <li>Yeh Jawaani Hai Deewani</li>
+            <li>Zindagi Na Milegi Dobara</li>
+            <li>Taare Zameen Par</li>
+            <li>Chhichhore</li>
+        </ol>
+
+    </section>
+
+
+    <!-- Cities Section -->
+    <section id="cities" class="about">
+
+        <h2 class="section-title">My Favourite Cities</h2>
+
+        <p>
+            Here are some cities I would like to visit:
+        </p>
+
+        <ul>
+            <li>Delhi</li>
+            <li>Mumbai</li>
+            <li>Jaipur</li>
+            <li>Goa</li>
+            <li>Manali</li>
+        </ul>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p style="color: white;">
+            &copy; 2026 About Us Page
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
